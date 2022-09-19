@@ -96,7 +96,7 @@ DATABASES = {
         "USER": "dbadmin",  # Nombre de usuario
         "PASSWORD": "uniandesIOT1234*",  # Contraseña
         "HOST": "44.203.203.111",  # Dirección IP de la base de datos
-        "PORT": "",  # Puerto de la base de datos
+        "PORT": "80",  # Puerto de la base de datos
     }
 }
 
@@ -158,7 +158,7 @@ CRISPY_TEMPLATE_PACK = 'bootstrap4'
 MQTT_HOST = "44.203.72.19"
 
 # Puerto del bróker MQTT
-MQTT_PORT = 1883
+MQTT_PORT = 8082
 
 # Credenciales para el usuario suscriptor del bróker MQTT
 MQTT_USER = "admin"
